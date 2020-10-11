@@ -1,3 +1,12 @@
+
+#GUI from tkinter Lib
+import tkinter as tk
+window = tk.Tk()
+
+greeting = tk.Label(text="Hello, user!")
+greeting.pack()
+
+
 welcome = "Welcome to basic PY Calculator"
 #Declaration of Variables and setting them to None
 firstNumber = None
@@ -46,3 +55,5 @@ def menu():
 
 
 menu()
+
+    
